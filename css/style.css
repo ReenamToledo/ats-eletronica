@@ -1,0 +1,123 @@
+* {
+    margin: 0 0.5vw 0 0.5vw;
+}
+
+/* TAGS */
+h2 {
+    font-size: 30px;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #0000FF;
+    font-size: 25px;
+}
+
+.information p {
+    font-size: 20px;
+}
+
+.meiosDeContato p {
+    font-size: 30px;
+    font-family: 'Stella Nova', sans-serif;
+}
+
+
+
+
+
+/* CLASSES */
+.local {
+    display: flex;
+    background-color: rgb(226, 225, 223);
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 10px;
+}
+
+.inline {
+    display: flex;
+    align-items: center;
+}
+
+.indice {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: large;
+    font-family: 'Andale Mono', monospace;
+    font-weight: bold;
+    color: aqua;
+}
+
+.estatico {
+    font-size: 20px;
+    text-decoration: none;
+    color: goldenrod;
+    transition: 0.5s;
+}
+
+.meio {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Andale Mono', monospace;
+    background-color: #0000FF;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.information {
+    font-family: 'Boston', sans-serif;
+}
+
+.logoATS {
+    height: 120px;
+    width: 120px;
+}
+
+.logoGPS {
+    width: 30px;
+    height: 30px;
+}
+
+.curiosidades {
+    color: rgb(255, 174, 0);
+}
+
+.topicos {
+    color: aqua;
+}
+
+.red {
+    font-weight: bold;
+    color: red;
+}
+
+.folhasDeContato {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px 0 0 0;
+}
+
+.meiosDeContato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(255, 174, 0);
+    box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.75);
+}
